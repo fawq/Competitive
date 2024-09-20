@@ -7,3 +7,8 @@ readme = "README.md"
 edition = "2021"
 
 [dependencies]
+fmt = "0.1.0"
+
+[build-dependencies]
+cargo-check = { version = "*", optional = true }
+clippy = { version = "*", optional = true }
