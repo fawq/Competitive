@@ -1,10 +1,15 @@
 [tool.poetry]
-name = "competetive"
+name = "competitive"
 version = "0.1.0"
 description = "Python competetive"
 authors = ["Krystian Krakowski <kkrakowski22@gmail.com>"]
 readme = "README.md"
-package-mode = false
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.scripts]
+main = "src.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.12"

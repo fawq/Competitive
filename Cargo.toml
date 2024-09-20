@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Python competetive"
 authors = ["Krystian Krakowski <kkrakowski22@gmail.com>"]
 readme = "README.md"
+rust-version = "1.81.0"
 edition = "2021"
 
 [dependencies]
