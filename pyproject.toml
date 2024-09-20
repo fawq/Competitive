@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "competetive"
+version = "0.1.0"
+description = "Python competetive"
+authors = ["Krystian Krakowski <kkrakowski22@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.11.2"
+pytest = "^8.3.3"
+isort = "^5.13.2"
+black = "^24.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,9 @@
+[package]
+name = "competitive"
+version = "0.1.0"
+description = "Python competetive"
+authors = ["Krystian Krakowski <kkrakowski22@gmail.com>"]
+readme = "README.md"
+edition = "2021"
+
+[dependencies]
