@@ -1,4 +1,5 @@
-import src.first_try.first_try
+import src.first_try_dir.first_try
+
 
 def main() -> None:
     print("Hello, world!")
