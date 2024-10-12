@@ -115,6 +115,24 @@ let max_float = f32::MAX;
 let min_float = f32::MIN;
 ```
 
+### Compare values
+
+Python:
+
+```Python
+c = max(a, b)
+d = min(a, b)
+```
+
+Rust:
+
+```Rust
+use std::cmp;
+...
+c = cmp::max(a, b);
+d = cmp::min(a, b);
+```
+
 ## Colections
 
 ### Links
